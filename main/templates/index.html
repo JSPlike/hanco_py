@@ -1,0 +1,170 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Hanco</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
+    {% comment %} <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> {% endcomment %}
+
+    {% comment %} 폰트 {% endcomment %}
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Jua" rel="stylesheet"> 
+
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar-menu" data-offset="110">
+		
+		<nav class="site-header sticky-top py-1">
+			<div class="container d-flex flex-column flex-md-row justify-content-between">
+				<!-- icon -->
+				<a class="py-2" href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+				</a>
+				<a class="btn btn-outline-secondary" href="#">시작하기</a>
+			</div>
+		</nav>
+		<div class="position-relative overflow-hidden p-3 m-md-3 text-center bg-white">
+			<div class="col-md-7 mx-auto my-5">
+        <h1 class="font-weight-bold" style="font-size: 1.9em; padding-bottom: 5px; color: #666666; line-height: 1.2; font-family: 'Jua', sans-serif;">당신의 모든 프로젝트를</h1>
+        <h1 class="font-weight-bold" style="font-size: 1.9em; padding-bottom: 5px; color: #666666; line-height: 1.2; font-family: 'Jua', sans-serif;">Hanco를 통해 관리해드립니다</h1>
+        <div style="padding-top: 5px; padding-bottom: 5px;"></div>
+        <p class="font-weight-light" style="font-size: 0.8rem; white-space: pre; color: #999999;">
+          Hanco는 다양한 프로젝트 환경을 고려하여, 사용하기 쉽고 간편한 프로젝트 관리 솔루션입니다.
+          한 화면에서 업무관리, 파일공유, 채팅, 분석을 통해 당신의 프로젝트를 완벽히 관리해드립니다.
+        </p>  
+        <a class="btn btn-primary" href="#" style="background-color: #0099CC; border-color: #0099CC; font-family: 'Do Hyeon', sans-serif;">무료로 시작하기</a>
+        <img src="{% static "img/main-1.png" %}" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="col-md-8 pg-lg-5 mx-auto my-5">
+        <p style="font-size: 0.9rem;">
+          전국 <span style="color: #0099FF;">400</span>여개 대학교의 <span style="color: #0099FF;">수천</span> 이상의 개인과 팀이 Hanco로 다양한 프로젝트를 완수했습니다 
+        </p>
+        <img src="{% static "img/main-2.png" %}" style="max-width: 100%; height: auto;">
+      </div>
+      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+  	</div>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
+      <div class="row mx-auto justify-content-center">
+        <div class="col-4 overflow-hidden" style="float: right;">
+          <img src="{% static "img/main-3.png" %}" style="max-width: 100%; height: auto; float: left">
+        </div>
+        <div class="col-5 overflow-hidden" style="text-align: left; padding-top: 8rem;">
+          <h1 style="font-size: 1.5em; font-weight: bold;">협업 및 개인 프로젝트 관리</h1>
+          <hr style="width: 50%; border: solid 1px #33CCCC; float:left;">
+          <p style="font-size: 1.5rem; float: left;">
+            인터렉트한 대쉬보드 기능을 겸비한<br>
+            프로젝트 매니지먼트 서비스 'Hanco' APP 출시!<br>
+            그동안 웹을 통해 진행하셨던 모든 일을<br>
+            스마트폰 앱을 통해 보다 쉽게 관리하세요<br>
+            밀린 업무, 진행 현황 등 다양한 알림을 통해<br>
+            프로젝트 관리에 용이함을 더해 드립니다.<br>
+          </p>
+          <img src="{% static "img/main-4.png" %}" style="max-width: 70%; height: auto; float: left">
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 bg-white">
+    
+      <div class="row col-md-8 mx-auto">
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">개인 프로젝트 관리</span><br>
+              당신의 모든 프로젝트, 과제등<br>중요한 업무일정을 정확하게<br>관리해드립니다.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left;">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">빅데이터 기반 학습량 관리</span><br>
+              공부를 하고 있는 학생들은<br>한 주간 얼마나 공부했는지<br>빅데이터 기반으로 분석합니다.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left;">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">협업 프로젝트 관리</span><br>
+              팀 프로젝트를 진행중이면<br>팀원들과 프로젝트 진행도와<br>업무를 명확히 나눠드립니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left;">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">체크 리스트</span><br>
+              간편한 대쉬보드 기능으로<br>당신의 업무리스트에 대해서<br>보다 편리하게 체크할 수 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left;">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">웹 & 앱 연동</span><br>
+              웹에서 관리했던 모든 프로젝트를<br>스마트폰 APP 연동을 통해서<br>바로 확인할 수 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 p-3">
+          <div></div>
+          <div style="float: left;">
+            <p style="font-size: 0.9rem; float: left;">
+              <span style="font-size: 1.3rem; font-family: 'Do Hyeon', sans-serif;">푸시 알림 기능</span><br>
+              업무, 프로젝트등에 대해서<br>Hanco만의 빅데이터를 통해<br>사용자들에게 푸시알림 해드립니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden" style="background-color: #e9e9e9">
+      <div class="col-md-10 mx-auto my-5 text-center">
+        <p class="font-weight-light" style="font-size: 1.5rem; font-family: 'Do Hyeon', sans-serif;">
+          세계가 인정한 Hanco 플랫폼
+        </p>
+        <p>Hanco는 세계적으로 유명한 소프트웨어 평가단 및 정부 지자체에서도 우수한 플랫폼으로서 평가받고 있습니다.</p>
+        <img src="{% static "img/main-5.png" %}" style="max-width: 70%; height: auto;">
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden" style="background: linear-gradient(to right, #01A9DB, #0489B1, #086A87, #0B4C5F);">
+      <div class="col-md-10 mx-auto my-5 text-center">
+        <p class="font-weight-light" style="color: #fff; font-size: 1.5rem; font-family: 'Do Hyeon', sans-serif;">
+          지금 Hanco를 사용해 보세요
+        </p>
+        <p style="font-weight-light; color: #fff;">당신의 모든 프로젝트 관리가 편해집니다</p>
+        <a class="btn btn-primary" href="#">무료로 시작하기</a>
+      </div>
+    </div>
+    <div class="position-relative overflow-hidden  p-3 text-center" style="background-color: #336699">
+      <p style="font-weight-light; color: #fff; margin-top: auto; margin-bottom: auto;">Copyright All rights reserved by 준영, 주환</p>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
